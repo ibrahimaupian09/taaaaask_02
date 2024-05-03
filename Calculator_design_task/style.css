@@ -1,0 +1,66 @@
+body{
+    border: 1px dotted #ffff;
+    margin: 0 auto;
+    width: 26%;
+    height: 50%;
+    margin-top: 8%;
+    background-color: black;
+    border-radius: 8px;
+}
+body:hover{
+    border-right: 2px dotted pink;
+    border-bottom: 2px dotted pink;
+} 
+div{
+    margin: 2%;
+    margin-left: 8%;
+}
+#text{
+    margin-top: 2%;
+    width: 86%;
+    border-radius: 5px;
+    height: 50px;
+}
+#clear{
+    width: 42%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: larger;
+    color: #ffff;
+}
+.btn{
+    background-color: black;
+    color: #ffff;
+    padding-bottom: 10px;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: larger;
+    padding-left: 5%;
+    box-shadow: 1px solid red;
+}
+.btn:hover{
+    border-bottom: 1px solid red;    
+    border-right: 1px solid red;    
+} 
+#plus{
+    background-color: #000;
+    color: #ffff;
+    width: 20%;
+    height: 91px;
+    border-radius: 5px;
+    font-size: larger;
+    float: right;
+    margin-right: 14%;
+}
+#equal{
+    background-color: rgb(9, 153, 201);
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+}
+input:hover,.btn:hover, #btnnn:hover, #btnn:hover, #clear:hover{
+    background-color: rgb(41, 59, 59);
+    color: red;
+}
